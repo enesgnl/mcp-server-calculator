@@ -1,0 +1,19 @@
+[project]
+name = "calculator-mcp"
+version = "1.0.0"
+description = "Temel ve gelişmiş matematiksel işlemler için MCP aracı"
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [
+    {name = "Enes Gönül"}
+]
+dependencies = [
+    "fastmcp>=0.1.0"
+]
+
+[project.urls]
+Repository = "https://github.com/enesgnl/mcp-server-calculator.git"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
